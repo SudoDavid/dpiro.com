@@ -1,0 +1,29 @@
+.agenda {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.agenda h2 {
+  margin-bottom: 50px;
+}
+
+.agenda-item {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.agenda-time {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.agenda-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.agenda-description {
+  font-size: 16px;
+  line-height: 1.5;
+}

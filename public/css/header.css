@@ -1,0 +1,91 @@
+.header {
+      background-color: #0015BC;
+			padding: 35px 0;
+			color: #ffffff;
+    		font-family: Georgia, serif; /* Optional */
+			font-size: 18px;
+			line-height: 1.5;
+			position: relative;
+			z-index: 99;
+		}
+
+		.header__logo {
+			 display: flex;
+    		align-items: center;
+			position: absolute;
+			top: 45%;
+			left: 20px;
+			transform: translateY(-50%);
+			gap: 12px;
+			
+		}
+
+		.header__logo img {
+			max-height: 40px;
+		}
+
+		.header__logo-text {
+ 	   font-size: 1.5rem;
+    	font-weight: bold;
+    	color: #fff; /* Change to whatever color matches your header */
+    	font-family: Georgia, serif; /* Optional */
+		}
+
+
+	
+		.header__menu {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.header__menu .nav-link {
+			padding: 10px 20px;
+			font-weight: 600;
+			color: #ffffff;
+
+		}
+
+		.header__menu .nav-link:hover {
+			background-color: #0015BC;
+		}
+
+		.header__menu .dropdown-menu {
+			background-color: #000000;
+			border: none;
+		}
+
+		.header__menu .dropdown-item {
+			color: #fff;
+			font-weight: 600;
+		}
+
+		.header__menu .dropdown-item:hover {
+			background-color: #0015BC;
+		}
+
+		.header__social {
+			position: absolute;
+			top: 50%;
+			right: 20px;
+			transform: translateY(-50%);
+		}
+
+		.header__social .header__social-icon {
+			color: #fff;
+			padding: 5px;
+			transition: color 0.3s;
+		}
+
+		.header__social .header__social-icon:hover {
+			color: #000000;
+		}
+		.header__social .threads-icon svg {
+			position: relative;
+			top: -2px;
+		}
+		.header__social .X-icon svg {
+			position: relative;
+			top: -2px;
+		}

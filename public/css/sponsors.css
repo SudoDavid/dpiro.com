@@ -1,0 +1,54 @@
+.sponsors {
+  background-color: #000000;
+  padding: 50px 0;
+    color: #ffffff;
+
+}
+
+.sponsors h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.sponsor img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sponsor a:hover {
+  text-decoration: none;
+}
+
+.sponsor:hover {
+  transform: translateY(-5px);
+}
+
+.sponsor:hover img {
+  filter: brightness(80%);
+}
+
+.sponsor a:hover {
+  text-decoration: none;
+}
+
+.sponsor a:hover img {
+  filter: brightness(80%);
+}
+
+.sponsor a {
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .sponsors h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+
+  .sponsor {
+    margin-bottom: 30px;
+  }
+}
